@@ -4,7 +4,7 @@ import "./Main.scss"
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <main className='main'>Main</main>
   )
 }
 

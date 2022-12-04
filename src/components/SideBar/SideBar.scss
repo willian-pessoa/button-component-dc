@@ -1,0 +1,29 @@
+.side-bar {
+  background-color: #fafbfd;
+  width: 237px;
+  height: 100%;
+  padding: 39px 0 0 48px;
+
+  .title {
+    font-size: 13px;
+    color: #F7542E;
+    font-weight: 600;
+    font-family: "Poppins";
+
+    span {
+      color: #090F31;
+      font: inherit;
+    }
+  }
+
+  .content-side-bar{
+    margin-top: 122px;
+    list-style: none;
+
+    li{
+      color: #9E9E9E;
+      font-weight: 500;
+      margin-bottom: 25px;
+    }
+  }
+}
