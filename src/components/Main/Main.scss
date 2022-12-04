@@ -2,6 +2,7 @@
   width: calc(100vw - 237px);
   height: 100%;
   padding: 53px 0 0 83px;
+  overflow-y: auto;
 
   h3 {
     font-size: 24px;
@@ -11,6 +12,16 @@
     margin-bottom: 28px;
   }
 
+  .p-footer {
+    font-family: "Ubuntu Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #828282;
+    margin: 15px;
+  }
+
   .main-variants {
     display: flex;
     flex-direction: column;
@@ -18,15 +29,16 @@
     .row-variant {
       display: flex;
       justify-content: space-between;
-      width: 70%;
+      width: 80%;
       margin-bottom: 45px;
       min-width: 300px;
+      max-width: 600px;
 
-      .cel-variant{
+      .cel-variant {
         display: flex;
         flex-direction: column;
 
-        .describe-btn{
+        .describe-btn {
           font-family: "Ubuntu Mono";
           font-size: 12px;
           font-weight: 400;

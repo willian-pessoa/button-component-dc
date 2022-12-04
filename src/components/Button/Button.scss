@@ -1,28 +1,16 @@
 .btn{
-  padding: 8px 16px;
   box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
   border-radius: 6px;
   font-weight: 500;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   align-self: flex-start;
-  background: #e0e0e0;
-  color: #1d1d1d;
   cursor: pointer;
-}
 
-.btn-default{
-  border: none;
-}
-
-.hover-default,
-.btn-default:hover,
-.btn-default:focus{
-  background: #AEAEAE;
-}
-
-.btn-outline{
-  background: #fff;
-  border: 1px solid #3f3f3f;
+  img{
+    margin: 0 2px;
+  }
 }
 
 .hover-outline,
@@ -45,4 +33,155 @@
 
 .disableShadow{
   box-shadow: none;
+}
+
+// Sizes
+.size-md{
+  padding: 8px 16px;
+}
+
+.size-sm{
+  padding: 6px 12px;
+}
+
+.size-lg{
+  padding: 11px 22px;
+}
+
+// Default Buttons
+.color-default.btn-default{
+  background-color: #e0e0e0;
+  border: none;
+}
+
+.color-default.btn-default:hover,
+.color-default.btn-default:focus{
+  background: #AEAEAE;
+}
+
+.color-default.btn-outline{
+  background: #fff;
+  border: 1px solid #3f3f3f;
+}
+
+.color-default.btn-outline:hover,
+.color-default.btn-outline:focus{
+  background: #E0E0E0;
+}
+
+.color-default.btn-text{
+  background: #fff;
+  border: none;
+}
+
+.color-default.btn-text:hover,
+.color-default.btn-text:focus{
+  background: #E0E0E0;
+}
+
+// Primary Buttons
+.color-primary.btn-default{
+  border: none;
+  background-color: #2962FF;
+  color: white;
+}
+
+.color-primary.btn-default:hover,
+.color-primary.btn-default:focus{
+  background: #0039CB;
+}
+
+.color-primary.btn-outline{
+  background-color: #fff;
+  color: #2962FF;
+  border: 1px solid #2962FF;
+}
+
+.color-primary.btn-outline:hover,
+.color-primary.btn-outline:focus{
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.color-primary.btn-text{
+  background-color: #fff;
+  border: none;
+  color: #2962FF;
+}
+
+.color-primary.btn-text:hover,
+.color-primary.btn-text:focus{
+  background: rgba(41, 98, 255, 0.1);
+}
+
+// Secondary Buttons
+
+.color-secondary.btn-default{
+  border: none;
+  background: #455A64;
+  color: white;
+}
+
+.color-secondary.btn-default:hover,
+.color-secondary.btn-default:focus{
+  background: #1C313A;
+}
+
+.color-secondary.btn-outline{
+  border: 1px solid #1C313A;
+  background: #fff;
+  color: #1C313A;
+}
+
+.color-secondary.btn-outline:hover,
+.color-secondary.btn-outline:focus{
+  background: #E0E0E0;
+}
+
+.color-secondary.btn-text{
+  border: none;
+  background: #fff;
+  color: #1C313A;
+}
+
+.color-secondary.btn-text:hover,
+.color-secondary.btn-text:focus{
+  background: #E0E0E0;
+}
+
+// Danger Buttons
+
+.color-danger.btn-default{
+  border: none;
+  background: #D32F2F;
+  color: white;
+}
+
+.color-danger.btn-default:hover,
+.color-danger.btn-default:focus{
+  background: #9A0007;
+}
+
+.color-danger.btn-outline{
+  border: 1px solid #D32F2F;
+  background: #fff;
+  color: #D32F2F;
+}
+
+.color-danger.btn-outline:hover,
+.color-danger.btn-outline:focus{
+  border-color: #9A0007;
+  background-color: #ffdfd9;
+  color: #9A0007;
+}
+
+.color-danger.btn-text{
+  border: none;
+  background: #fff;
+  color: #D32F2F;
+}
+
+.color-danger.btn-text:hover,
+.color-danger.btn-text:focus{
+  background-color: #ffdfd9;
+  color: #9A0007;
 }
