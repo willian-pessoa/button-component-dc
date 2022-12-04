@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot]("./src/assets/firstpage.jpg")
+![screenshot]("https://github.com/willian-pessoa/button-component-dc/blob/main/src/assets/firstpage.jpg?raw=true")
 
 This challenge is to create a component button reusable with some predefined styles using react.js. The project was good to practice my organization and translate a predefined design into code.
 
