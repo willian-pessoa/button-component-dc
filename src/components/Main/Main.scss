@@ -1,4 +1,38 @@
-.main{
+.main {
   width: calc(100vw - 237px);
   height: 100%;
+  padding: 53px 0 0 83px;
+
+  h3 {
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #4f4f4f;
+    margin-bottom: 28px;
+  }
+
+  .main-variants {
+    display: flex;
+    flex-direction: column;
+
+    .row-variant {
+      display: flex;
+      justify-content: space-between;
+      width: 70%;
+      margin-bottom: 45px;
+      min-width: 300px;
+
+      .cel-variant{
+        display: flex;
+        flex-direction: column;
+
+        .describe-btn{
+          font-family: "Ubuntu Mono";
+          font-size: 12px;
+          font-weight: 400;
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
 }

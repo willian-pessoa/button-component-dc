@@ -1,0 +1,48 @@
+.btn{
+  padding: 8px 16px;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  align-self: flex-start;
+  background: #e0e0e0;
+  color: #1d1d1d;
+  cursor: pointer;
+}
+
+.btn-default{
+  border: none;
+}
+
+.hover-default,
+.btn-default:hover,
+.btn-default:focus{
+  background: #AEAEAE;
+}
+
+.btn-outline{
+  background: #fff;
+  border: 1px solid #3f3f3f;
+}
+
+.hover-outline,
+.btn-outline:hover,
+.btn-outline:focus{
+  background: #E0E0E0;
+}
+
+.btn-text{
+  background-color: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+.hover-text,
+.btn-text:hover,
+.btn-text:focus{
+  background: #E0E0E0;
+}
+
+.disableShadow{
+  box-shadow: none;
+}
